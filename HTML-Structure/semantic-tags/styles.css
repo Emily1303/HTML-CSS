@@ -1,0 +1,16 @@
+.outer {
+    background-color: #f9f7cf;
+}
+
+.inner {
+    background-color: #f2dcbb;
+    width: 480px;
+    padding: 15px;
+    margin: auto;
+}
+
+.base {
+    width: 480px;
+    padding: 5px;
+    margin: auto;
+}

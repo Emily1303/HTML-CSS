@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+</head>
+<body>
+    <form action="submitted.html" method="post">
+
+        <div>
+            <label for="name">Username:</label>
+            <input id="name" name="name" type="text">
+        </div>
+
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" name="password" id="pass">
+        </div>
+
+        <div>
+            <label for="male">Male</label>
+            <input id="male" name="gender" value="Male" type="radio">
+
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="Female">
+        </div>
+
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age">
+        </div>
+
+        <div>
+            <h3>Where do you want to go?</h3>    
+
+            <label for="country">Bulgaria</label>
+            <input type="checkbox" id="country" name="country" value="Bulgaria">
+
+            <label for="country">Germany</label>
+            <input type="checkbox" id="country" name="country" value="Germany">
+
+            <label for="country">Egypt</label>
+            <input type="checkbox" name="country" id="country" value="Egypt">
+        </div>
+
+        <fieldset>
+            <legend>Deatils</legend>
+            <input type="text" name="first-name">
+            <input type="text" name="last-name">
+        </fieldset>
+
+        <label for="color">Favourite color:</label>
+        <select name="color" id="color">
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="pink">Pink</option>
+        </select>
+
+        <div>
+            <label for="details">More details:</label>
+            <textarea name="details" id="details" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+
+        
+
+        <input type="number" step="0.1">
+    </form>
+
+    <h2>Tables</h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Original URL</th>
+                <th>Visits</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>https://nakov.com</td>
+                <td>160</td>
+            </tr>
+
+            <tr>
+                <td>https://selenium.dev</td>
+                <td>43</td>
+            </tr>
+
+            <tr>
+                <td>https://nodejs.org</td>
+                <td>86</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total visits</td>
+                <td>289</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+.art1 {
+    background-color: #f2f4c0;
+    width: 700px;
+    border: 1px solid #b2ad7d;
+}
+
+body {
+    background-color: #e4e978;
+    padding: 5px;
+}
+
+.art2 {
+    background-color: #f2f4c0;
+    width: 700px;
+    border: 1px solid #b2ad7d;
+    font-style: italic;
+    color: #5c6e91;
+    margin-top: 15px;
+}
+
+.inner {
+    margin-left: 15px;
+}
+
+h3 {
+    font-size: x-large;
+}
