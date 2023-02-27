@@ -1,0 +1,46 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    margin: 50px 40px 40px 40px;
+    height: 30px;
+}
+
+hr {
+    margin: 40px;
+    border-color: black;
+}
+
+main {
+    margin: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+    margin-right: 30px;
+}
+
+nav {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: green;
+    margin: 10px;
+}
+
+main h1 {
+    font-weight: 500;
+    font-family: serif;
+}
